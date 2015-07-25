@@ -1,0 +1,28 @@
+{
+  "name": "youtu",
+  "version": "0.1.0",
+  "description": "Third-part SDK of Tencent youtu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TooBug/youtu.git"
+  },
+  "keywords": [
+    "tencent",
+    "youtu",
+    "face",
+    "detect"
+  ],
+  "author": "TooBug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TooBug/youtu/issues"
+  },
+  "homepage": "https://github.com/TooBug/youtu#readme",
+  "dependencies": {
+    "restler": "^3.3.0"
+  }
+}
