@@ -6,6 +6,12 @@
 - Promise接口
 - 支持使用相对路径或buffer指定图片
 
+## 安装
+
+```sh
+npm install youtu
+```
+
 ## Demo
 
 ```
@@ -58,6 +64,16 @@ youtu.detectFace('./demo.jpg').then(function(data){
 	- person_id
 - getFaceInfo
 	- face_id
+
+## 错误处理
+
+HTTP层面错误会走到Promise错误处理流程，应用层面错误码暂未解析，需应用自行处理。
+
+## Todo
+
+- [ ] 完善文档
+- [ ] 错误码解析
+- [ ] 支持传入远程图片地址
 
 ## LICENSE
 
