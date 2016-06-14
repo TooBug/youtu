@@ -1,6 +1,6 @@
 {
   "name": "youtu",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Third-part SDK of Tencent youtu.",
   "main": "index.js",
   "scripts": {
